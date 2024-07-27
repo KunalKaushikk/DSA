@@ -1,4 +1,4 @@
-public class Solution {
+public class MinBitFlip {
     public int makeEqual(int n, int k) {
         // Count the number of 1-bits in both n and k
         int countN = Integer.bitCount(n);
@@ -34,7 +34,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        MinBitFlip sol = new MinBitFlip();
         
         // Example 1
         int n1 = 13, k1 = 4;
